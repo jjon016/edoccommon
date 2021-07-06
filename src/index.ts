@@ -14,3 +14,8 @@ export * from './middlewares/validate-request';
 export * from './types/doc-status';
 export * from './types/sigbox-type';
 export * from './types/font-types';
+
+export * from './events/subjects';
+export * from './events/base-listener';
+export * from './events/base-publisher';
+export * from './events/signatures-set-event';
