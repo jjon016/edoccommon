@@ -13,3 +13,4 @@ export * from './middlewares/validate-request';
 
 export * from './types/doc-status';
 export * from './types/sigbox-type';
+export * from './types/font-types';
