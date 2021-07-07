@@ -3,7 +3,7 @@ import { Subjects } from './subjects';
 export interface SignaturesSetEvent {
   subject: Subjects.SignaturesSet;
   data: {
-    userId: string;
+    userid: string;
     version: number;
   };
 }
