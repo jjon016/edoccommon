@@ -18,4 +18,4 @@ export * from './types/font-types';
 export * from './events/subjects';
 export * from './events/base-listener';
 export * from './events/base-publisher';
-export * from './events/signatures-set-event';
+export * from './events/user-updated-event';

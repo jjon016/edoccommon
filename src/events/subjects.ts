@@ -1,3 +1,3 @@
 export enum Subjects {
-  SignaturesSet = 'signatures:set',
+  UserUpdated = 'user:updated',
 }
