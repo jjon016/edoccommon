@@ -6,12 +6,12 @@ export interface UserUpdatedEvent {
   data: {
     id: string;
     email: string;
-    name: string;
-    phone: string;
-    signaturetype: FontTypes;
-    signature: string;
-    initialstype: FontTypes;
-    initials: string;
+    name?: string;
+    phone?: string;
+    signaturetype?: FontTypes;
+    signature?: string;
+    initialstype?: FontTypes;
+    initials?: string;
     version: number;
   };
 }
