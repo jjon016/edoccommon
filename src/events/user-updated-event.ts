@@ -6,6 +6,7 @@ export interface UserUpdatedEvent {
   data: {
     id: string;
     email: string;
+    password?: string;
     name?: string;
     phone?: string;
     signaturetype?: FontTypes;
